@@ -1,6 +1,6 @@
 ## Git-Fun 
-This repository contains the source for the following apps:
+This Git repository contains the source for the following iOS applications:
 
-## [Flowers] (./flowers_app/Flowers/about/README.md)
+## [Flowers App] (./flowers_app/Flowers/about/README.md)
 
 ## [Multiples] (./multiples_app/multiples-ex/about/README.md)
