@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Flowers" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue_flower-1" translatesAutoresizingMaskIntoConstraints="NO" id="vZX-bh-VuL">
+                                <rect key="frame" x="57" y="126" width="120" height="120"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flt-fp-ENV">
+                                <rect key="frame" x="187" y="249" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Hide Pink Flower">
+                                    <color key="titleColor" red="0.78431372549019607" green="0.35686274509803922" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="hidePinkFlower:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qIs-cB-9lW"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pink_flower-1" translatesAutoresizingMaskIntoConstraints="NO" id="jnq-rk-Z63">
+                                <rect key="frame" x="198" y="126" width="120" height="120"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LmU-I4-OmW">
+                                <rect key="frame" x="46" y="249" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Hide Blue Flower">
+                                    <color key="titleColor" red="0.32156862745098042" green="0.58039215686274515" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="hideBlueFlower:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s00-xo-wJn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Snl-mR-kxz">
+                                <rect key="frame" x="117" y="319" width="141" height="30"/>
+                                <state key="normal" title="Welcome">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="welcome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2sp-bX-R93"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.074509803921568626" green="0.12156862745098039" blue="0.21568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="BlueFlowerImage" destination="vZX-bh-VuL" id="2hN-Qy-1bU"/>
+                        <outlet property="HideBlueFlowerButton" destination="LmU-I4-OmW" id="Ibv-pg-3yN"/>
+                        <outlet property="HidePinkFlowerButton" destination="flt-fp-ENV" id="I0E-uM-ofy"/>
+                        <outlet property="PinkFlowerImage" destination="jnq-rk-Z63" id="Bgn-YG-ffO"/>
+                        <outlet property="WelcomeButton" destination="Snl-mR-kxz" id="NzV-Js-qvg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339.5" y="399.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blue_flower-1" width="240" height="240"/>
+        <image name="pink_flower-1" width="240" height="240"/>
+    </resources>
+</document>

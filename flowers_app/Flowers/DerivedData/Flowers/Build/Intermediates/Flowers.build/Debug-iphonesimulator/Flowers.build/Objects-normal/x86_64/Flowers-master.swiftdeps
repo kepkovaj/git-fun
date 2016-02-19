@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "855e18d14d00f09e55ec2be17355796a"
+build_time: [509167376, 750101000]
+inputs:
+  "/Users/janakepkova/Documents/JANA/_NOW_/UDEMY_iOS9/Flowers/Flowers/ViewController.swift": [502850325, 0]
+  "/Users/janakepkova/Documents/JANA/_NOW_/UDEMY_iOS9/Flowers/Flowers/AppDelegate.swift": [502425843, 0]

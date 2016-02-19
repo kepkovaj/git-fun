@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "d8f11f32bdaa3167cae57cbcfe019269"
+build_time: [509158011, 984823000]
+inputs:
+  "/Users/janakepkova/Documents/JANA/_NOW_/UDEMY_iOS9/multiples-ex/multiples-ex/ViewController.swift": [509158011, 0]
+  "/Users/janakepkova/Documents/JANA/_NOW_/UDEMY_iOS9/multiples-ex/multiples-ex/AppDelegate.swift": [509074762, 0]

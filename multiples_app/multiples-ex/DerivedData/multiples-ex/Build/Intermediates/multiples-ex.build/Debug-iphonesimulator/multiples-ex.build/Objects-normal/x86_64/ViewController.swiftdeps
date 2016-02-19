@@ -1,0 +1,661 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C12multiples_ex14ViewController"
+provides-member:
+- ["C12multiples_ex14ViewController", ""]
+provides-dynamic-lookup:
+- "updateLbl"
+- "multiple"
+- "result"
+- "assignVisibility"
+- "addBtn"
+- "onPlayBtnPressed"
+- "displayLbl"
+- "revertVisibility"
+- "numberTxt"
+- "onAddPressed"
+- "restartGame"
+- "logoImg"
+- "isGameOver"
+- "currentNum"
+- "maxNum"
+- "gameStarted"
+- "playBtn"
+depends-top-level:
+- !private "abs"
+- !private "&&"
+- "UITextField"
+- "BooleanLiteralType"
+- !private ">="
+- !private "UnicodeScalarType"
+- "ViewController"
+- !private "!="
+- "UILabel"
+- "Int"
+- "UIViewController"
+- "UIButton"
+- !private "+"
+- !private "StringLiteralType"
+- "UIImageView"
+- "Bool"
+- !private "!"
+depends-member:
+- !private ["PSs9AnyObject", "Int"]
+- !private ["PSs9AnyObject", "abs"]
+- ["PSs9AnyObject", "addBtn"]
+- ["PSs9AnyObject", "assignVisibility"]
+- ["PSs9AnyObject", "currentNum"]
+- ["PSs9AnyObject", "displayLbl"]
+- ["PSs9AnyObject", "gameStarted"]
+- !private ["PSs9AnyObject", "hidden"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "isGameOver"]
+- ["PSs9AnyObject", "logoImg"]
+- ["PSs9AnyObject", "maxNum"]
+- ["PSs9AnyObject", "multiple"]
+- ["PSs9AnyObject", "numberTxt"]
+- ["PSs9AnyObject", "onAddPressed"]
+- ["PSs9AnyObject", "onPlayBtnPressed"]
+- ["PSs9AnyObject", "playBtn"]
+- ["PSs9AnyObject", "restartGame"]
+- ["PSs9AnyObject", "result"]
+- ["PSs9AnyObject", "revertVisibility"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "updateLbl"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Int"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "abs"]
+- ["PSs11CVarArgType", "addBtn"]
+- ["PSs11CVarArgType", "assignVisibility"]
+- ["PSs11CVarArgType", "currentNum"]
+- ["PSs11CVarArgType", "displayLbl"]
+- ["PSs11CVarArgType", "gameStarted"]
+- !private ["PSs11CVarArgType", "hidden"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "isGameOver"]
+- ["PSs11CVarArgType", "logoImg"]
+- ["PSs11CVarArgType", "maxNum"]
+- ["PSs11CVarArgType", "multiple"]
+- ["PSs11CVarArgType", "numberTxt"]
+- ["PSs11CVarArgType", "onAddPressed"]
+- ["PSs11CVarArgType", "onPlayBtnPressed"]
+- ["PSs11CVarArgType", "playBtn"]
+- ["PSs11CVarArgType", "restartGame"]
+- ["PSs11CVarArgType", "result"]
+- ["PSs11CVarArgType", "revertVisibility"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "updateLbl"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "Int"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "abs"]
+- ["PSs23CustomStringConvertible", "addBtn"]
+- ["PSs23CustomStringConvertible", "assignVisibility"]
+- ["PSs23CustomStringConvertible", "currentNum"]
+- ["PSs23CustomStringConvertible", "displayLbl"]
+- ["PSs23CustomStringConvertible", "gameStarted"]
+- !private ["PSs23CustomStringConvertible", "hidden"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "isGameOver"]
+- ["PSs23CustomStringConvertible", "logoImg"]
+- ["PSs23CustomStringConvertible", "maxNum"]
+- ["PSs23CustomStringConvertible", "multiple"]
+- ["PSs23CustomStringConvertible", "numberTxt"]
+- ["PSs23CustomStringConvertible", "onAddPressed"]
+- ["PSs23CustomStringConvertible", "onPlayBtnPressed"]
+- ["PSs23CustomStringConvertible", "playBtn"]
+- ["PSs23CustomStringConvertible", "restartGame"]
+- ["PSs23CustomStringConvertible", "result"]
+- ["PSs23CustomStringConvertible", "revertVisibility"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "updateLbl"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Int"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "abs"]
+- ["PSs9Equatable", "addBtn"]
+- ["PSs9Equatable", "assignVisibility"]
+- ["PSs9Equatable", "currentNum"]
+- ["PSs9Equatable", "displayLbl"]
+- ["PSs9Equatable", "gameStarted"]
+- !private ["PSs9Equatable", "hidden"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "isGameOver"]
+- ["PSs9Equatable", "logoImg"]
+- ["PSs9Equatable", "maxNum"]
+- ["PSs9Equatable", "multiple"]
+- ["PSs9Equatable", "numberTxt"]
+- ["PSs9Equatable", "onAddPressed"]
+- ["PSs9Equatable", "onPlayBtnPressed"]
+- ["PSs9Equatable", "playBtn"]
+- ["PSs9Equatable", "restartGame"]
+- ["PSs9Equatable", "result"]
+- ["PSs9Equatable", "revertVisibility"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "updateLbl"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "init"]
+- !private ["PSs8Hashable", "Int"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "abs"]
+- ["PSs8Hashable", "addBtn"]
+- ["PSs8Hashable", "assignVisibility"]
+- ["PSs8Hashable", "currentNum"]
+- ["PSs8Hashable", "displayLbl"]
+- ["PSs8Hashable", "gameStarted"]
+- !private ["PSs8Hashable", "hidden"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "isGameOver"]
+- ["PSs8Hashable", "logoImg"]
+- ["PSs8Hashable", "maxNum"]
+- ["PSs8Hashable", "multiple"]
+- ["PSs8Hashable", "numberTxt"]
+- ["PSs8Hashable", "onAddPressed"]
+- ["PSs8Hashable", "onPlayBtnPressed"]
+- ["PSs8Hashable", "playBtn"]
+- ["PSs8Hashable", "restartGame"]
+- ["PSs8Hashable", "result"]
+- ["PSs8Hashable", "revertVisibility"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "updateLbl"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "IntegerLiteralType"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "init"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "Int"]
+- !private ["PSo8NSCoding", "abs"]
+- ["PSo8NSCoding", "addBtn"]
+- ["PSo8NSCoding", "assignVisibility"]
+- ["PSo8NSCoding", "currentNum"]
+- ["PSo8NSCoding", "displayLbl"]
+- ["PSo8NSCoding", "gameStarted"]
+- !private ["PSo8NSCoding", "hidden"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "isGameOver"]
+- ["PSo8NSCoding", "logoImg"]
+- ["PSo8NSCoding", "maxNum"]
+- ["PSo8NSCoding", "multiple"]
+- ["PSo8NSCoding", "numberTxt"]
+- ["PSo8NSCoding", "onAddPressed"]
+- ["PSo8NSCoding", "onPlayBtnPressed"]
+- ["PSo8NSCoding", "playBtn"]
+- ["PSo8NSCoding", "restartGame"]
+- ["PSo8NSCoding", "result"]
+- ["PSo8NSCoding", "revertVisibility"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "updateLbl"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "Int"]
+- !private ["PSo26NSExtensionRequestHandling", "abs"]
+- ["PSo26NSExtensionRequestHandling", "addBtn"]
+- ["PSo26NSExtensionRequestHandling", "assignVisibility"]
+- ["PSo26NSExtensionRequestHandling", "currentNum"]
+- ["PSo26NSExtensionRequestHandling", "displayLbl"]
+- ["PSo26NSExtensionRequestHandling", "gameStarted"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "isGameOver"]
+- ["PSo26NSExtensionRequestHandling", "logoImg"]
+- ["PSo26NSExtensionRequestHandling", "maxNum"]
+- ["PSo26NSExtensionRequestHandling", "multiple"]
+- ["PSo26NSExtensionRequestHandling", "numberTxt"]
+- ["PSo26NSExtensionRequestHandling", "onAddPressed"]
+- ["PSo26NSExtensionRequestHandling", "onPlayBtnPressed"]
+- ["PSo26NSExtensionRequestHandling", "playBtn"]
+- ["PSo26NSExtensionRequestHandling", "restartGame"]
+- ["PSo26NSExtensionRequestHandling", "result"]
+- ["PSo26NSExtensionRequestHandling", "revertVisibility"]
+- ["PSo26NSExtensionRequestHandling", "updateLbl"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "abs"]
+- ["CSo8NSObject", "addBtn"]
+- ["CSo8NSObject", "assignVisibility"]
+- ["CSo8NSObject", "currentNum"]
+- ["CSo8NSObject", "displayLbl"]
+- ["CSo8NSObject", "gameStarted"]
+- !private ["CSo8NSObject", "hidden"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isGameOver"]
+- ["CSo8NSObject", "logoImg"]
+- ["CSo8NSObject", "maxNum"]
+- ["CSo8NSObject", "multiple"]
+- ["CSo8NSObject", "numberTxt"]
+- ["CSo8NSObject", "onAddPressed"]
+- ["CSo8NSObject", "onPlayBtnPressed"]
+- ["CSo8NSObject", "playBtn"]
+- ["CSo8NSObject", "restartGame"]
+- ["CSo8NSObject", "result"]
+- ["CSo8NSObject", "revertVisibility"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "updateLbl"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "abs"]
+- ["PSo16NSObjectProtocol", "addBtn"]
+- ["PSo16NSObjectProtocol", "assignVisibility"]
+- ["PSo16NSObjectProtocol", "currentNum"]
+- ["PSo16NSObjectProtocol", "displayLbl"]
+- ["PSo16NSObjectProtocol", "gameStarted"]
+- !private ["PSo16NSObjectProtocol", "hidden"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isGameOver"]
+- ["PSo16NSObjectProtocol", "logoImg"]
+- ["PSo16NSObjectProtocol", "maxNum"]
+- ["PSo16NSObjectProtocol", "multiple"]
+- ["PSo16NSObjectProtocol", "numberTxt"]
+- ["PSo16NSObjectProtocol", "onAddPressed"]
+- ["PSo16NSObjectProtocol", "onPlayBtnPressed"]
+- ["PSo16NSObjectProtocol", "playBtn"]
+- ["PSo16NSObjectProtocol", "restartGame"]
+- ["PSo16NSObjectProtocol", "result"]
+- ["PSo16NSObjectProtocol", "revertVisibility"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "updateLbl"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs17SignedIntegerType", "init"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "hidden"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "hidden"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "Int"]
+- !private ["PSo21UIAppearanceContainer", "abs"]
+- ["PSo21UIAppearanceContainer", "addBtn"]
+- ["PSo21UIAppearanceContainer", "assignVisibility"]
+- ["PSo21UIAppearanceContainer", "currentNum"]
+- ["PSo21UIAppearanceContainer", "displayLbl"]
+- ["PSo21UIAppearanceContainer", "gameStarted"]
+- !private ["PSo21UIAppearanceContainer", "hidden"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "isGameOver"]
+- ["PSo21UIAppearanceContainer", "logoImg"]
+- ["PSo21UIAppearanceContainer", "maxNum"]
+- ["PSo21UIAppearanceContainer", "multiple"]
+- ["PSo21UIAppearanceContainer", "numberTxt"]
+- ["PSo21UIAppearanceContainer", "onAddPressed"]
+- ["PSo21UIAppearanceContainer", "onPlayBtnPressed"]
+- ["PSo21UIAppearanceContainer", "playBtn"]
+- ["PSo21UIAppearanceContainer", "restartGame"]
+- ["PSo21UIAppearanceContainer", "result"]
+- ["PSo21UIAppearanceContainer", "revertVisibility"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "updateLbl"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "hidden"]
+- !private ["PSo18UIContentContainer", "Int"]
+- !private ["PSo18UIContentContainer", "abs"]
+- ["PSo18UIContentContainer", "addBtn"]
+- ["PSo18UIContentContainer", "assignVisibility"]
+- ["PSo18UIContentContainer", "currentNum"]
+- ["PSo18UIContentContainer", "displayLbl"]
+- ["PSo18UIContentContainer", "gameStarted"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "isGameOver"]
+- ["PSo18UIContentContainer", "logoImg"]
+- ["PSo18UIContentContainer", "maxNum"]
+- ["PSo18UIContentContainer", "multiple"]
+- ["PSo18UIContentContainer", "numberTxt"]
+- ["PSo18UIContentContainer", "onAddPressed"]
+- ["PSo18UIContentContainer", "onPlayBtnPressed"]
+- ["PSo18UIContentContainer", "playBtn"]
+- ["PSo18UIContentContainer", "restartGame"]
+- ["PSo18UIContentContainer", "result"]
+- ["PSo18UIContentContainer", "revertVisibility"]
+- ["PSo18UIContentContainer", "updateLbl"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "hidden"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "hidden"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "hidden"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "Int"]
+- !private ["PSo18UIFocusEnvironment", "abs"]
+- ["PSo18UIFocusEnvironment", "addBtn"]
+- ["PSo18UIFocusEnvironment", "assignVisibility"]
+- ["PSo18UIFocusEnvironment", "currentNum"]
+- ["PSo18UIFocusEnvironment", "displayLbl"]
+- ["PSo18UIFocusEnvironment", "gameStarted"]
+- !private ["PSo18UIFocusEnvironment", "hidden"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "isGameOver"]
+- ["PSo18UIFocusEnvironment", "logoImg"]
+- ["PSo18UIFocusEnvironment", "maxNum"]
+- ["PSo18UIFocusEnvironment", "multiple"]
+- ["PSo18UIFocusEnvironment", "numberTxt"]
+- ["PSo18UIFocusEnvironment", "onAddPressed"]
+- ["PSo18UIFocusEnvironment", "onPlayBtnPressed"]
+- ["PSo18UIFocusEnvironment", "playBtn"]
+- ["PSo18UIFocusEnvironment", "restartGame"]
+- ["PSo18UIFocusEnvironment", "result"]
+- ["PSo18UIFocusEnvironment", "revertVisibility"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "updateLbl"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIImageView", "hidden"]
+- !private ["PSo10UIKeyInput", "hidden"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo7UILabel", "hidden"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITextField"]
+- !private ["CSo11UIResponder", "abs"]
+- ["CSo11UIResponder", "addBtn"]
+- ["CSo11UIResponder", "assignVisibility"]
+- ["CSo11UIResponder", "currentNum"]
+- ["CSo11UIResponder", "displayLbl"]
+- ["CSo11UIResponder", "gameStarted"]
+- !private ["CSo11UIResponder", "hidden"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "isGameOver"]
+- ["CSo11UIResponder", "logoImg"]
+- ["CSo11UIResponder", "maxNum"]
+- ["CSo11UIResponder", "multiple"]
+- ["CSo11UIResponder", "numberTxt"]
+- ["CSo11UIResponder", "onAddPressed"]
+- ["CSo11UIResponder", "onPlayBtnPressed"]
+- ["CSo11UIResponder", "playBtn"]
+- ["CSo11UIResponder", "restartGame"]
+- ["CSo11UIResponder", "result"]
+- ["CSo11UIResponder", "revertVisibility"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "updateLbl"]
+- !private ["PSo16UIStateRestoring", "Int"]
+- !private ["PSo16UIStateRestoring", "abs"]
+- ["PSo16UIStateRestoring", "addBtn"]
+- ["PSo16UIStateRestoring", "assignVisibility"]
+- ["PSo16UIStateRestoring", "currentNum"]
+- ["PSo16UIStateRestoring", "displayLbl"]
+- ["PSo16UIStateRestoring", "gameStarted"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "isGameOver"]
+- ["PSo16UIStateRestoring", "logoImg"]
+- ["PSo16UIStateRestoring", "maxNum"]
+- ["PSo16UIStateRestoring", "multiple"]
+- ["PSo16UIStateRestoring", "numberTxt"]
+- ["PSo16UIStateRestoring", "onAddPressed"]
+- ["PSo16UIStateRestoring", "onPlayBtnPressed"]
+- ["PSo16UIStateRestoring", "playBtn"]
+- ["PSo16UIStateRestoring", "restartGame"]
+- ["PSo16UIStateRestoring", "result"]
+- ["PSo16UIStateRestoring", "revertVisibility"]
+- ["PSo16UIStateRestoring", "updateLbl"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "hidden"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "hidden"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "hidden"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "Int"]
+- !private ["PSo18UITraitEnvironment", "abs"]
+- ["PSo18UITraitEnvironment", "addBtn"]
+- ["PSo18UITraitEnvironment", "assignVisibility"]
+- ["PSo18UITraitEnvironment", "currentNum"]
+- ["PSo18UITraitEnvironment", "displayLbl"]
+- ["PSo18UITraitEnvironment", "gameStarted"]
+- !private ["PSo18UITraitEnvironment", "hidden"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "isGameOver"]
+- ["PSo18UITraitEnvironment", "logoImg"]
+- ["PSo18UITraitEnvironment", "maxNum"]
+- ["PSo18UITraitEnvironment", "multiple"]
+- ["PSo18UITraitEnvironment", "numberTxt"]
+- ["PSo18UITraitEnvironment", "onAddPressed"]
+- ["PSo18UITraitEnvironment", "onPlayBtnPressed"]
+- ["PSo18UITraitEnvironment", "playBtn"]
+- ["PSo18UITraitEnvironment", "restartGame"]
+- ["PSo18UITraitEnvironment", "result"]
+- ["PSo18UITraitEnvironment", "revertVisibility"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "updateLbl"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "hidden"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UITextField"]
+- !private ["CSo16UIViewController", "abs"]
+- ["CSo16UIViewController", "addBtn"]
+- ["CSo16UIViewController", "assignVisibility"]
+- ["CSo16UIViewController", "currentNum"]
+- ["CSo16UIViewController", "displayLbl"]
+- ["CSo16UIViewController", "gameStarted"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "isGameOver"]
+- ["CSo16UIViewController", "logoImg"]
+- ["CSo16UIViewController", "maxNum"]
+- ["CSo16UIViewController", "multiple"]
+- ["CSo16UIViewController", "numberTxt"]
+- ["CSo16UIViewController", "onAddPressed"]
+- ["CSo16UIViewController", "onPlayBtnPressed"]
+- ["CSo16UIViewController", "playBtn"]
+- ["CSo16UIViewController", "restartGame"]
+- ["CSo16UIViewController", "result"]
+- ["CSo16UIViewController", "revertVisibility"]
+- ["CSo16UIViewController", "updateLbl"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- ["C12multiples_ex14ViewController", "Bool"]
+- ["C12multiples_ex14ViewController", "Int"]
+- ["C12multiples_ex14ViewController", "UIButton"]
+- ["C12multiples_ex14ViewController", "UIImageView"]
+- ["C12multiples_ex14ViewController", "UILabel"]
+- ["C12multiples_ex14ViewController", "UITextField"]
+- !private ["C12multiples_ex14ViewController", "abs"]
+- ["C12multiples_ex14ViewController", "addBtn"]
+- ["C12multiples_ex14ViewController", "assignVisibility"]
+- ["C12multiples_ex14ViewController", "currentNum"]
+- ["C12multiples_ex14ViewController", "deinit"]
+- ["C12multiples_ex14ViewController", "displayLbl"]
+- ["C12multiples_ex14ViewController", "gameStarted"]
+- ["C12multiples_ex14ViewController", "init"]
+- ["C12multiples_ex14ViewController", "isGameOver"]
+- ["C12multiples_ex14ViewController", "logoImg"]
+- ["C12multiples_ex14ViewController", "maxNum"]
+- ["C12multiples_ex14ViewController", "multiple"]
+- ["C12multiples_ex14ViewController", "numberTxt"]
+- ["C12multiples_ex14ViewController", "onAddPressed"]
+- ["C12multiples_ex14ViewController", "onPlayBtnPressed"]
+- ["C12multiples_ex14ViewController", "playBtn"]
+- ["C12multiples_ex14ViewController", "restartGame"]
+- ["C12multiples_ex14ViewController", "result"]
+- ["C12multiples_ex14ViewController", "revertVisibility"]
+- ["C12multiples_ex14ViewController", "updateLbl"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "hidden"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs18_SignedIntegerType", "init"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo11UIImageView"
+- !private "PSo10UIKeyInput"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "C12multiples_ex14ViewController"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "847052cb5de86463a168b2674da49ede"
